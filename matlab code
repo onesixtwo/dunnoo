@@ -1,3 +1,5 @@
+fprintf('ACTIVITY 1');
+
 year = [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007];
 profit = [9421, 10003, 10384, 10526, 11330, 12715, 12599, 14410];
 
@@ -23,3 +25,11 @@ fprintf('predicted years:');
 for a = 1:length(predictyear)
     fprintf('%d: %.2f million\n',predictyear(a),predictprofit(a));
 end
+
+fprintf('ACTIVITY 2');
+
+A = [1 0 1 0 0 0 0 600; 1 -1 0 -1 0 0 0 0; 0 1 0 0 1 0 0 500; 0 0 1 0 0 1 0 600; 0 0 0 1 0 -1 0 0; 0 0 0 0 1 0 1 500]
+rref(A)
+
+
+
