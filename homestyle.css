@@ -135,8 +135,9 @@ body {
 @media screen and (max-width: 767px) {
     .home {
         padding: 20% 5%; 
-        background-size: cover;
+        background-size:cover;
         height: auto; 
+        background-position: 100%;
     }
 
     
