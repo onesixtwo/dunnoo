@@ -134,19 +134,41 @@ body {
 
 @media screen and (max-width: 767px) {
     .home {
-        background-size: 100% auto;
+        padding: 10% 5%; /* Adjusted padding for mobile */
+        background-size: cover;
+        height: auto; /* Allow the height to adjust based on content */
+    }
+
+    .logo {
+        font-size: 30px; /* Adjusted font size for mobile */
+        margin-left: 10px; /* Adjusted margin for mobile */
+    }
+
+    .navbar a {
+        font-size: 16px; /* Adjusted font size for mobile */
+        margin-left: 30px; /* Adjusted margin for mobile */
+    }
+
+    .home-info h1 {
+        font-size: 32px; /* Adjusted font size for mobile */
+        white-space: normal; /* Display text normally on mobile */
+        overflow: visible; /* Show full text on mobile */
+        animation: none; /* Remove animation for mobile */
+    }
+
+    .home-info h3 {
+        font-size: 24px; /* Adjusted font size for mobile */
+        white-space: normal; /* Display text normally on mobile */
+        overflow: visible; /* Show full text on mobile */
+        animation: none; /* Remove animation for mobile */
+    }
+
+    .home-info p {
+        font-size: 14px; /* Adjusted font size for mobile */
+        white-space: normal; /* Display text normally on mobile */
+        overflow: visible; /* Show full text on mobile */
+        animation: none; /* Remove animation for mobile */
     }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
