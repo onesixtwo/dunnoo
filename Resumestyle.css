@@ -45,7 +45,6 @@ body {
 }
 
 
-
 .navbar a {
     font-size: 18px;
     color: #dcdedf;
@@ -61,15 +60,13 @@ body {
 }
 
 
-
-
-
-
-
-
 /*animations*/
 @keyframes showRight {
     100% {
         width: 0;
     }
 }
+
+
+
+/*responsiveness*/

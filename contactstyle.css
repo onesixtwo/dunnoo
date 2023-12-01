@@ -107,7 +107,7 @@ body {
 
 .socials {
     position: absolute;
-    bottom: 50px;
+    bottom: 70px;
     left: 10; 
     width: 100%;
   }
@@ -132,27 +132,33 @@ body {
     50% {border-color: transparent;}
 }
 
-
+/*responsiveness*/
 @media screen and (max-width: 767px) {
+
+    .logo {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    
     .contact {
-        padding: 15% 5%; /* Adjusted padding for smaller screens */
+        padding: 15% 5%; 
     }
 
     .contact-info h1 {
-        font-size: 24px; /* Further adjusted font size for smaller screens */
+        font-size: 24px; 
     }
 
     .contact-info h3 {
-        font-size: 20px; /* Further adjusted font size for smaller screens */
-        margin: 15px 0 20px; /* Further adjusted margin for smaller screens */
+        font-size: 20px; 
+        margin: 15px 0 20px; 
     }
 
     .socials {
-        bottom: 160px; /* Adjusted position for smaller screens */
+        bottom: 160px; 
     }
 
     .socials a {
-        font-size: 18px; /* Further adjusted font size for smaller screens */
-        margin: 0 50px; /* Further adjusted margin for smaller screens */
+        font-size: 25px; 
+        margin: 0 40px; 
     }
 }
