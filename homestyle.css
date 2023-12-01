@@ -134,55 +134,44 @@ body {
 
 @media screen and (max-width: 767px) {
     .home {
-        padding: 10% 5%; /* Adjusted padding for mobile */
+        padding: 20% 5%; 
         background-size: cover;
-        height: auto; /* Allow the height to adjust based on content */
+        height: auto; 
     }
 
+    
     .logo {
-        font-size: 30px; /* Adjusted font size for mobile */
-        margin-left: 10px; /* Adjusted margin for mobile */
+        font-size: 30px;
+        margin-left: 10px;
     }
 
     .navbar a {
-        font-size: 16px; /* Adjusted font size for mobile */
-        margin-left: 30px; /* Adjusted margin for mobile */
+        font-size: 16px;
+        margin-left: 30px;
+    }
+
+    .home-info {
+        padding-top: 50px; 
     }
 
     .home-info h1 {
-        font-size: 32px; /* Adjusted font size for mobile */
-        white-space: normal; /* Display text normally on mobile */
-        overflow: visible; /* Show full text on mobile */
-        animation: none; /* Remove animation for mobile */
+        font-size: 32px;
+        white-space: normal;
+        overflow: visible;
+        animation: none;
     }
 
     .home-info h3 {
-        font-size: 24px; /* Adjusted font size for mobile */
-        white-space: normal; /* Display text normally on mobile */
-        overflow: visible; /* Show full text on mobile */
-        animation: none; /* Remove animation for mobile */
+        font-size: 24px;
+        white-space: normal;
+        overflow: visible;
+        animation: none;
     }
 
     .home-info p {
-        font-size: 14px; /* Adjusted font size for mobile */
-        white-space: normal; /* Display text normally on mobile */
-        overflow: visible; /* Show full text on mobile */
-        animation: none; /* Remove animation for mobile */
-    }
-
-    @keyframes showRight {
-        100% {
-            width: 0;
-        }
-    }
-    
-    @keyframes typing {
-        from {width: 0;}
-    }
-    
-    @keyframes cursor {
-        50% {border-color: transparent;}
+        font-size: 14px;
+        white-space: normal;
+        overflow: visible;
+        animation: none;
     }
 }
-
-
