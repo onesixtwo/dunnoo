@@ -169,6 +169,20 @@ body {
         overflow: visible; /* Show full text on mobile */
         animation: none; /* Remove animation for mobile */
     }
+
+    @keyframes showRight {
+        100% {
+            width: 0;
+        }
+    }
+    
+    @keyframes typing {
+        from {width: 0;}
+    }
+    
+    @keyframes cursor {
+        50% {border-color: transparent;}
+    }
 }
 
 
