@@ -132,6 +132,11 @@ body {
     50% {border-color: transparent;}
 }
 
+@media screen and (max-width: 767px) {
+    .home {
+        background-size: 100% auto;
+    }
+}
 
 
 
