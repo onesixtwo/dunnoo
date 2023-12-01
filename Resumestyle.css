@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #24282f;
+}   
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    background-image: url("images/vargas2.png");
+    background-size: 170px;
+    background-repeat: no-repeat;
+    font-size: 60px;
+    color: transparent;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 70px;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #dcdedf;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 60px;
+    transition: .1s;
+}
+
+.navbar a:hover,
+.navbar a:active {
+    color: #1a9fff;
+}
+
+
