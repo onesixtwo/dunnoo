@@ -159,20 +159,20 @@ body {
         font-size: 32px;
         white-space: normal;
         overflow: visible;
-        animation: none;
+        
     }
 
     .home-info h3 {
         font-size: 24px;
         white-space: normal;
         overflow: visible;
-        animation: none;
+        
     }
 
     .home-info p {
         font-size: 14px;
         white-space: normal;
         overflow: visible;
-        animation: none;
+        
     }
 }
