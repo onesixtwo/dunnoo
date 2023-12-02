@@ -135,14 +135,6 @@ body {
 
 /*responsiveness*/
 @media screen and (max-width: 767px) {
-    .home {
-        padding: 20% 5%; 
-        background-size:cover;
-        height: auto; 
-        background-position: 100%;
-    }
-
-    
     .logo {
         font-size: 30px;
         margin-left: 10px;
@@ -161,6 +153,7 @@ body {
         font-size: 32px;
         white-space: normal;
         overflow: visible;
+        color:#251f1c;
         
     }
 
@@ -178,3 +171,13 @@ body {
         
     }
 }
+
+@media screen and (max-width: 768px) {
+    .home {
+        padding: 10% 5%;
+        background-image: url('images/pic.jpg');
+        background-size: cover; 
+        background-position: center;
+      }
+  }
+  
