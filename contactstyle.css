@@ -181,3 +181,39 @@ body {
         margin: 0 30px; 
     }
 }
+
+/*responsiveness landscape*/
+
+/* Your existing landscape-specific styles */
+@media screen and (max-width: 850px) and (orientation: landscape) {
+    /* Adjustments for landscape orientation */
+    .logo {
+      font-size: 24px;
+      margin-left: 20px;
+    }
+    
+    .contact {
+      padding: 10% 5%; /* Adjusted padding for landscape */
+    }
+  
+    .contact-info h1 {
+      font-size: 20px; /* Adjusted font-size for h1 in landscape */
+    }
+  
+    .contact-info h3 {
+      font-size: 18px; /* Adjusted font-size for h3 in landscape */
+      margin: 10px 0 15px; /* Adjusted margin for h3 in landscape */
+    }
+  
+    .socials {
+      bottom: 150px; /* Adjusted bottom position for socials */
+    }
+  
+    .socials a {
+      font-size: 20px; /* Adjusted font-size for social links */
+      margin: 0 20px; /* Adjusted margin for social links */
+    }
+  
+    /* Additional landscape styles as needed */
+  }
+  

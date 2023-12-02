@@ -153,7 +153,7 @@ body {
 }
 
 
-/*responsiveness*/
+/*responsiveness for portrait mobile*/
 @media screen and (max-width: 768px) {
 
     .logo {
@@ -201,10 +201,7 @@ body {
       margin-top: 20px;
       font-size: 18px;
     }
-    
-  }
-  
-@media screen and (max-width: 768px) {
+
     .resume-info a {
       margin: 15px 0;
       font-size: 22px;
@@ -229,5 +226,68 @@ body {
       width: 0%; 
     }
     
+    
   }
-  
+
+  /*responsive for mobile landscape*/
+/* Add a media query for mobile in landscape orientation */
+@media only screen and (max-width: 850px) and (orientation: landscape) {
+  body {
+      background: radial-gradient(circle at 50% 50%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+  }
+
+  .header {
+      padding: 15px 10px;
+  }
+
+  .logo {
+      font-size: 30px;
+      margin-left: 20px;
+  }
+
+  .navbar a {
+      font-size: 16px;
+      margin-left: 20px;
+  }
+
+  .resume {
+      padding: 0 5%;
+  }
+
+  .resume-info {
+      flex-direction: column;
+      height: auto;
+      padding: 0;
+  }
+
+  .resume-info a {
+      margin: 20px 0;
+      font-size: 25px;
+  }
+
+  .me img {
+      width: 100%;
+      height: auto;
+      max-width: 200px;
+      max-height: 300px;
+      margin-top: 50px;
+  }
+
+  .res-con {
+      margin: 0;
+      font-size: 16px;
+      padding: 5%;
+  }
+
+  .logo::before {
+      display: none;
+  }
+
+  .resume-info a::after {
+      bottom: 15px;
+  }
+
+  .resume-info a::after {
+    display: none;
+}
+}

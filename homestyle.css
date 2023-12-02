@@ -133,7 +133,7 @@ body {
 }
 
 
-/*responsiveness*/
+/*responsiveness portrait*/
 @media screen and (max-width: 767px) {
     .logo {
         font-size: 30px;
@@ -170,14 +170,12 @@ body {
         overflow: visible;
         
     }
-}
 
-@media screen and (max-width: 768px) {
     .home {
         padding: 10% 5%;
         background-image: url('images/pic.jpg');
         background-size: cover; 
         background-position: center;
       }
-  }
-  
+
+}
