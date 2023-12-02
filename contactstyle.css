@@ -6,19 +6,14 @@
 }
 
 body {
-    background: #24282f;
     color: #b7babd;
-}   
-
-.contact{
     height: 100vh;
     width: 100%;
     background: repeating-linear-gradient(150deg,#0e0e0e,#330040,#5d0076,#8900ae,#c900ff,
     #8900ae,#5d0076,#330040,#0e0e0e,#330040,#5d0076,#8900ae,#c900ff);
     background-size: 300% 300%;
     animation: color 5s ease-in-out infinite;  
-}
-
+}   
 
 .header {
     position: fixed;

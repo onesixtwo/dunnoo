@@ -18,5 +18,104 @@
             <a href = "Contact.html">Contact</a>
         </nav>
     </header>
+    
+    <section class="resume">
+        <div class="me">
+          <img src="/images/pic.jpg">
+        </div>
+        <nav class="resume-info">
+          <a href="#skills" class="navi" >Skills</a>
+          
+          <a href="#experience" class="navi" >Experience</a>
+          
+          <a href="#education" class="navi" >Education</a>
+          
+          <a href="#achievements" class="navi" >Achievements</a>
+          
+        </nav>
+
+        <div class="res-con">
+          <div id="skills" class="content">
+            <p>Web Design </p>
+            <p>Web Design </p>
+            <p>Web Design </p>
+            <p>Web Design </p>
+            <p>Web Design </p>
+            <p>Web Design </p>
+            <p>Web Design </p>
+            <p>Web Design </p>
+            <p>Web Design </p>
+          </div>
+
+          <div id="experience" class="content">
+            <p>Experience content goes here...</p>
+            <p>Experience content goes here...</p>
+            <p>Experience content goes here...</p>
+            <p>Experience content goes here...</p>
+            <p>Experience content goes here...</p>
+            <p>Experience content goes here...</p>
+            <p>Experience content goes here...</p>
+            <p>Experience content goes here...</p>
+
+          </div>
+
+          <div id="education" class="content">
+            <p>Education content goes here...</p>
+            <p>Experience content goes here...</p>
+            <p>Experience content goes here...</p>
+            <p>Experience content goes here...</p>
+            <p>Experience content goes here...</p>
+            <p>Experience content goes here...</p>
+            <p>Experience content goes here...</p>
+            <p>Experience content goes here...</p>
+            <p>Experience content goes here...</p>
+
+          </div>
+
+          <div id="achievements" class="content">
+            <p>Achievements content goes here...</p>
+            <p>Experience content goes here...</p>
+            <p>Experience content goes here...</p>
+            <p>Experience content goes here...</p>
+            <p>Experience content goes here...</p>
+            <p>Experience content goes here...</p>
+            <p>Experience content goes here...</p>
+            <p>Experience content goes here...</p>
+            <p>Experience content goes here...</p>
+          </div>
+
+        </div>
+      </section>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('.resume-info a');
+            const contents = document.querySelectorAll('.res-con .content');
+
+            links.forEach(function(link) {
+                link.addEventListener('click', function(event) {
+                    event.preventDefault(); // Prevent default link behavior (e.g., navigating to a new page)
+
+                    // Remove 'active' class from all links
+                    links.forEach(function(item) {
+                        item.classList.remove('active');
+                    });
+
+                    // Add 'active' class to the clicked link
+                    this.classList.add('active');
+
+                    // Hide all contents
+                    contents.forEach(function(content) {
+                        content.style.display = 'none';
+                    });
+
+                    // Display the corresponding content
+                    const contentId = this.getAttribute('href').substring(1); // Get the ID of the content
+                    document.getElementById(contentId).style.display = 'block';
+                });
+            });
+        });
+    </script>
+      
+      
 </body>
 </html>
