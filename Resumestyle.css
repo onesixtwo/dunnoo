@@ -66,7 +66,9 @@ body {
     padding: 0 10% ;
     width: 100%;
 }
-/*underline effect*/
+
+
+/*____________________________________________underline effect*/
 .resume-info a {
     position: relative;
     font-size: 25px;
@@ -96,7 +98,7 @@ body {
     color: black;
     width: 50%;
 }
-/*underline effect*/
+/*________________________________*/
 
 
 .resume-info {
@@ -152,3 +154,80 @@ body {
 
 
 /*responsiveness*/
+@media screen and (max-width: 768px) {
+
+    .logo {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+
+    .header {
+      padding: 15px 10px;
+    }
+  
+    .logo {
+      font-size: 28px;
+      margin-left: 40px;
+    }
+  
+    .navbar a {
+      font-size: 16px;
+      margin-left: 40px;
+    }
+  
+    .resume {
+      flex-direction: column;
+      height: auto;
+      padding: 10% 5%;
+    }
+  
+    .resume-info {
+      flex-direction: column;
+      height: auto;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+
+    .me img {
+      width: 100%;
+      height: auto;
+      max-width: 300px;
+      border-radius: 50%;
+      margin-top: 40px;
+    }
+  
+    .res-con {
+      margin: 0;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+    
+  }
+  
+@media screen and (max-width: 768px) {
+    .resume-info a {
+      margin: 15px 0;
+      font-size: 22px;
+      text-decoration: none;
+      position: relative;
+      color: #b7babd; 
+    }
+  
+    .resume-info a::after {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 100%;
+      height: 1.5px; 
+      background: transparent; 
+      transition: all 0.3s ease-in-out;
+    }
+  
+    .resume-info a:hover::after,
+    .resume-info a:focus::after {
+      width: 0%; 
+    }
+    
+  }
+  

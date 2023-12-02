@@ -93,23 +93,18 @@
 
             links.forEach(function(link) {
                 link.addEventListener('click', function(event) {
-                    event.preventDefault(); // Prevent default link behavior (e.g., navigating to a new page)
-
-                    // Remove 'active' class from all links
+                    event.preventDefault(); 
                     links.forEach(function(item) {
                         item.classList.remove('active');
                     });
 
-                    // Add 'active' class to the clicked link
                     this.classList.add('active');
 
-                    // Hide all contents
                     contents.forEach(function(content) {
                         content.style.display = 'none';
                     });
 
-                    // Display the corresponding content
-                    const contentId = this.getAttribute('href').substring(1); // Get the ID of the content
+                    const contentId = this.getAttribute('href').substring(1); 
                     document.getElementById(contentId).style.display = 'block';
                 });
             });
