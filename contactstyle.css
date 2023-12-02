@@ -178,11 +178,11 @@ body {
     }
 
     .socials {
-        bottom: 100px; 
+        bottom: 190px; 
     }
 
     .socials a {
         font-size: 25px; 
-        margin: 0 40px; 
+        margin: 0 30px; 
     }
 }
