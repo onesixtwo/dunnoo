@@ -96,7 +96,7 @@ body {
 .resume-info a.active::after {
     opacity: 1;
     color: black;
-    width: 50%;
+    width: 100%;
 }
 /*________________________________*/
 
@@ -131,7 +131,7 @@ body {
 
 .res-con .content {
     display: none;
-  }
+}
   
 .res-con .content:target {
     display: block;
@@ -143,6 +143,64 @@ body {
     margin-top: -60%;
     font-size: 20px;
 }
+
+
+
+/*________________content design*/
+
+#education p {
+    margin-top: 10px;
+}
+
+#skills p {
+    margin-top: 15px;
+}
+
+#experience p {
+    margin-top: 10px;
+}
+
+#achievements p {
+    margin-top: 10px;
+}
+
+.content .eductitle{
+    color: #ac0d42;
+}
+
+.content .eductext{
+    color:#b7babd;
+}
+
+.content .skilltitle{
+    color: #ac0d42;
+}
+
+.content .skilltext{
+    color:#b7babd;
+}
+
+.content .exptitle{
+    color: #ac0d42;
+}
+
+.content .exptext{
+    color:#b7babd;
+}
+
+.content .achititle{
+    color: #ac0d42;
+}
+
+.content .achitext{
+    color:#b7babd;
+}
+
+
+
+
+
+
 
 
 /*animations*/
