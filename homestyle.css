@@ -55,8 +55,11 @@ body {
     transition: .1s;
 }
 
-.navbar a:hover,
-.navbar a:focus {
+.navbar a:hover{
+    color: #1a9fff;
+}
+
+.navbar a.active {
     color: #1a9fff;
 }
 
